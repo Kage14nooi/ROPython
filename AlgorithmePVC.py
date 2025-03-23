@@ -146,7 +146,7 @@ path, cost = solver.solve()
 
 # Conversion des indices en lettres
 cities = ['A', 'B', 'C', 'D', 'E', 'F']
-path = [(1, 3), (3, 5), (5, 4), (0, 1), (2, 0), (4, 2)]  # Liste des arcs
+# path = [(1, 3), (3, 5), (5, 4), (0, 1), (2, 0), (4, 2)]  # Liste des arcs
 
 # Convertir le chemin en noms de villes
 path_named = [(cities[i], cities[j]) for i, j in path]
